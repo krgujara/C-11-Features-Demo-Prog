@@ -40,6 +40,11 @@ class Widget
     // copy assignment
    Widget& operator=(const Widget& w);
 
+    // move contructor
+    Widget(Widget&& w);
+    
+    // move assignment
+    Widget& operator=(Widget&& w);
 
     const string& getS() const;
     const int& getV() const;

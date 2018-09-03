@@ -38,17 +38,38 @@ void Widget::setval(int val)
 }
 
 // copy constructor
-Widget :: Widget(const Widget& w) : s(new string(w.getS())), val(w.getV()){}
+Widget :: Widget(const Widget& w) : s(new string(w.getS())), val(w.getV())
+{
+    std::cout << "copy constr";
+}
 
 // copy assignment
 Widget& Widget :: operator= (const Widget& w)
 {
+    std::cout << "copy assignment";
     delete s;
     s = new string(w.getS());
     val = w.getV();
     return *this;
 }
 
+
+// move contructor // no const in the argument, because we want to eventually delete this pointer! 
+Widget:: Widget(Widget&& widget) : s(widget.s), val(widget.val)
+{
+    std::cout << "move cnstr";
+    widget.s = nullptr;
+}
+
+Widget& Widget::operator=(Widget&& widget)
+{
+    std::cout << "move assignment";
+
+    delete s;
+    s = widget.s;
+    val = widget.val;
+    return *this;
+}
 
 int main()
 {
@@ -88,12 +109,21 @@ int main()
     std::cout << "\n Again printing w4 to see that this is completely different object";
     w4.print();
     
-    Widget w5("abc", 2);
+    Widget w5("abc", 2);  // constr with args called
     
     Widget *w6ptr = &wres;
     *w6ptr = w5;
     w6ptr->setval(99);
     w6ptr->print();  // abc 99
     w5.print();     // abc 2
+    
+    Widget ws = w3; // copy contrucr
+    
+    ws = w4; // copy assignment
+    
+    Widget w6 = Widget("cd",1); // move constructr
+    
+    w6 = Widget("aa", 1); // move assignment
+    
     return 0;
 }
