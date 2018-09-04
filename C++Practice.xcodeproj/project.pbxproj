@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4BCACDA1213D56880043B75B /* template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACD9F213D56880043B75B /* template.cpp */; };
+		4BCACDA4213DA0F80043B75B /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA2213DA0F80043B75B /* LinkedList.cpp */; };
+		4BCACDA7213DA79D0043B75B /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA5213DA79D0043B75B /* Stack.cpp */; };
+		4BCACDAA213DAB7C0043B75B /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA8213DAB7C0043B75B /* Queue.cpp */; };
+		4BCACDAD213DAF8C0043B75B /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDAB213DAF8C0043B75B /* vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +30,14 @@
 		4BCACD94213D55440043B75B /* C++Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCACD9E213D55620043B75B /* template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = template.h; sourceTree = "<group>"; };
 		4BCACD9F213D56880043B75B /* template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = template.cpp; path = ../template.cpp; sourceTree = "<group>"; };
+		4BCACDA2213DA0F80043B75B /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedList.cpp; path = DataStructures/LinkedList.cpp; sourceTree = "<group>"; };
+		4BCACDA3213DA0F80043B75B /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LinkedList.hpp; path = DataStructures/LinkedList.hpp; sourceTree = "<group>"; };
+		4BCACDA5213DA79D0043B75B /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stack.cpp; path = DataStructures/Stack.cpp; sourceTree = "<group>"; };
+		4BCACDA6213DA79D0043B75B /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stack.hpp; path = DataStructures/Stack.hpp; sourceTree = "<group>"; };
+		4BCACDA8213DAB7C0043B75B /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		4BCACDA9213DAB7C0043B75B /* Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		4BCACDAB213DAF8C0043B75B /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vector.cpp; path = DataStructures/vector.cpp; sourceTree = "<group>"; };
+		4BCACDAC213DAF8C0043B75B /* vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vector.hpp; path = DataStructures/vector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,14 @@
 		4BCACD8B213D55440043B75B = {
 			isa = PBXGroup;
 			children = (
+				4BCACDAB213DAF8C0043B75B /* vector.cpp */,
+				4BCACDAC213DAF8C0043B75B /* vector.hpp */,
+				4BCACDA8213DAB7C0043B75B /* Queue.cpp */,
+				4BCACDA9213DAB7C0043B75B /* Queue.hpp */,
+				4BCACDA5213DA79D0043B75B /* Stack.cpp */,
+				4BCACDA6213DA79D0043B75B /* Stack.hpp */,
+				4BCACDA2213DA0F80043B75B /* LinkedList.cpp */,
+				4BCACDA3213DA0F80043B75B /* LinkedList.hpp */,
 				4BCACD96213D55440043B75B /* C++Practice */,
 				4BCACD95213D55440043B75B /* Products */,
 			);
@@ -120,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCACDA4213DA0F80043B75B /* LinkedList.cpp in Sources */,
 				4BCACDA1213D56880043B75B /* template.cpp in Sources */,
+				4BCACDA7213DA79D0043B75B /* Stack.cpp in Sources */,
+				4BCACDAA213DAB7C0043B75B /* Queue.cpp in Sources */,
+				4BCACDAD213DAF8C0043B75B /* vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

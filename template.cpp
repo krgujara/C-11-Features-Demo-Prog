@@ -71,6 +71,8 @@ Widget& Widget::operator=(Widget&& widget)
     return *this;
 }
 
+#if 0
+
 int main()
 {
     double a = 12.0, b = 18.0;
@@ -127,3 +129,4 @@ int main()
     
     return 0;
 }
+#endif
