@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BCACDA1213D56880043B75B /* template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACD9F213D56880043B75B /* template.cpp */; };
+		4B7E4755215739180001EDD2 /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E4753215739180001EDD2 /* Template.cpp */; };
+		4B7E47582157B7010001EDD2 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E47562157B7010001EDD2 /* String.cpp */; };
+		4B7E475B2157CE790001EDD2 /* STLContainters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E47592157CE790001EDD2 /* STLContainters.cpp */; };
+		4BCACDA1213D56880043B75B /* C++11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACD9F213D56880043B75B /* C++11.cpp */; };
 		4BCACDA4213DA0F80043B75B /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA2213DA0F80043B75B /* LinkedList.cpp */; };
 		4BCACDA7213DA79D0043B75B /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA5213DA79D0043B75B /* Stack.cpp */; };
 		4BCACDAA213DAB7C0043B75B /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA8213DAB7C0043B75B /* Queue.cpp */; };
@@ -27,17 +30,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B7E4753215739180001EDD2 /* Template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Template.cpp; path = "C++Practice/Template.cpp"; sourceTree = "<group>"; };
+		4B7E4754215739180001EDD2 /* Template.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Template.hpp; path = "C++Practice/Template.hpp"; sourceTree = "<group>"; };
+		4B7E47562157B7010001EDD2 /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = String.cpp; path = "C++Practice/String.cpp"; sourceTree = "<group>"; };
+		4B7E47592157CE790001EDD2 /* STLContainters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STLContainters.cpp; sourceTree = "<group>"; };
+		4B7E475A2157CE790001EDD2 /* STLContainters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = STLContainters.hpp; sourceTree = "<group>"; };
 		4BCACD94213D55440043B75B /* C++Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BCACD9E213D55620043B75B /* template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = template.h; sourceTree = "<group>"; };
-		4BCACD9F213D56880043B75B /* template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = template.cpp; path = ../template.cpp; sourceTree = "<group>"; };
+		4BCACD9E213D55620043B75B /* C++11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "C++11.h"; path = "C++Practice/C++11.h"; sourceTree = "<group>"; };
+		4BCACD9F213D56880043B75B /* C++11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "C++11.cpp"; sourceTree = "<group>"; };
 		4BCACDA2213DA0F80043B75B /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedList.cpp; path = DataStructures/LinkedList.cpp; sourceTree = "<group>"; };
 		4BCACDA3213DA0F80043B75B /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LinkedList.hpp; path = DataStructures/LinkedList.hpp; sourceTree = "<group>"; };
 		4BCACDA5213DA79D0043B75B /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stack.cpp; path = DataStructures/Stack.cpp; sourceTree = "<group>"; };
-		4BCACDA6213DA79D0043B75B /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stack.hpp; path = DataStructures/Stack.hpp; sourceTree = "<group>"; };
 		4BCACDA8213DAB7C0043B75B /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
 		4BCACDA9213DAB7C0043B75B /* Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		4BCACDAB213DAF8C0043B75B /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vector.cpp; path = DataStructures/vector.cpp; sourceTree = "<group>"; };
-		4BCACDAC213DAF8C0043B75B /* vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vector.hpp; path = DataStructures/vector.hpp; sourceTree = "<group>"; };
+		4BFA53C02149C7FB00256474 /* C++Basics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "C++Basics.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,15 +61,20 @@
 		4BCACD8B213D55440043B75B = {
 			isa = PBXGroup;
 			children = (
+				4B7E47592157CE790001EDD2 /* STLContainters.cpp */,
+				4B7E475A2157CE790001EDD2 /* STLContainters.hpp */,
+				4B7E47562157B7010001EDD2 /* String.cpp */,
+				4B7E4753215739180001EDD2 /* Template.cpp */,
+				4B7E4754215739180001EDD2 /* Template.hpp */,
+				4BCACD9E213D55620043B75B /* C++11.h */,
+				4BCACD9F213D56880043B75B /* C++11.cpp */,
+				4BFA53C02149C7FB00256474 /* C++Basics.hpp */,
 				4BCACDAB213DAF8C0043B75B /* vector.cpp */,
-				4BCACDAC213DAF8C0043B75B /* vector.hpp */,
 				4BCACDA8213DAB7C0043B75B /* Queue.cpp */,
 				4BCACDA9213DAB7C0043B75B /* Queue.hpp */,
 				4BCACDA5213DA79D0043B75B /* Stack.cpp */,
-				4BCACDA6213DA79D0043B75B /* Stack.hpp */,
 				4BCACDA2213DA0F80043B75B /* LinkedList.cpp */,
 				4BCACDA3213DA0F80043B75B /* LinkedList.hpp */,
-				4BCACD96213D55440043B75B /* C++Practice */,
 				4BCACD95213D55440043B75B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,15 +85,6 @@
 				4BCACD94213D55440043B75B /* C++Practice */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4BCACD96213D55440043B75B /* C++Practice */ = {
-			isa = PBXGroup;
-			children = (
-				4BCACD9F213D56880043B75B /* template.cpp */,
-				4BCACD9E213D55620043B75B /* template.h */,
-			);
-			path = "C++Practice";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +143,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7E475B2157CE790001EDD2 /* STLContainters.cpp in Sources */,
 				4BCACDA4213DA0F80043B75B /* LinkedList.cpp in Sources */,
-				4BCACDA1213D56880043B75B /* template.cpp in Sources */,
+				4B7E4755215739180001EDD2 /* Template.cpp in Sources */,
+				4BCACDA1213D56880043B75B /* C++11.cpp in Sources */,
 				4BCACDA7213DA79D0043B75B /* Stack.cpp in Sources */,
 				4BCACDAA213DAB7C0043B75B /* Queue.cpp in Sources */,
+				4B7E47582157B7010001EDD2 /* String.cpp in Sources */,
 				4BCACDAD213DAF8C0043B75B /* vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +271,7 @@
 				4BCACD9D213D55440043B75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

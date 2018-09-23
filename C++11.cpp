@@ -7,7 +7,7 @@
 // Practice - templates, operator overloading, const reference, const member functions, passing Custom class as a template argument.
 //
 #include <iostream>
-#include "template.h"
+#include "C++11.h"
 using namespace std;
 
 // has to be a const function (const keyword after the function defination)
@@ -58,7 +58,7 @@ Widget& Widget :: operator= (const Widget& w)
 Widget:: Widget(Widget&& widget) : s(widget.s), val(widget.val)
 {
     std::cout << "move cnstr";
-    widget.s = nullptr;
+    delete widget.s;
 }
 
 Widget& Widget::operator=(Widget&& widget)

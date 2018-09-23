@@ -6,10 +6,10 @@
 //  Copyright © 2018 Komal Gujarathi. All rights reserved.
 //
 
-#include "vector.hpp"
 #include <iostream>
 #include <vector>
 using namespace std;
+#if 0
 int main()
 {
     std::vector<int> vec;
@@ -84,3 +84,4 @@ int main()
     
     return 0;
 }
+#endif

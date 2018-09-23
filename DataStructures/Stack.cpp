@@ -6,7 +6,6 @@
 //  Copyright © 2018 Komal Gujarathi. All rights reserved.
 //
 #include <iostream>
-#include "Stack.hpp"
 #include <stack>
 using namespace std;
 
