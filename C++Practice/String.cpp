@@ -86,6 +86,21 @@ int main()
     
     swap(s1,s2);
     
+    
+    // FOR Information
+    // iterating non const string (reverse order)
+    std::string str ("now step live...");
+    for (std::string::reverse_iterator rit=str.rbegin(); rit!=str.rend(); ++rit)
+        std::cout << *rit;
+    
+    // iterating const string in the reverse order ( rbegin and rend return a const_reverse_iterator for const string, and reverse_iterator for non-const string.
+    const std::string s; // mostly used when we pass to one function as a const reference.
+     for(std::string::const_reverse_iterator it = s.rbegin(); it>= s.rend();++it)
+    {
+        cout << *it;
+    }
+
+    
 }
 
 #endif

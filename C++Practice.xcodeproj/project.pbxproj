@@ -10,6 +10,8 @@
 		4B7E4755215739180001EDD2 /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E4753215739180001EDD2 /* Template.cpp */; };
 		4B7E47582157B7010001EDD2 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E47562157B7010001EDD2 /* String.cpp */; };
 		4B7E475B2157CE790001EDD2 /* STLContainters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E47592157CE790001EDD2 /* STLContainters.cpp */; };
+		4B7E475E21595A170001EDD2 /* ConvertFromBase1ToBase2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E475C21595A170001EDD2 /* ConvertFromBase1ToBase2.cpp */; };
+		4B7E4761215992500001EDD2 /* NumericLimits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E475F215992500001EDD2 /* NumericLimits.cpp */; };
 		4BCACDA1213D56880043B75B /* C++11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACD9F213D56880043B75B /* C++11.cpp */; };
 		4BCACDA4213DA0F80043B75B /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA2213DA0F80043B75B /* LinkedList.cpp */; };
 		4BCACDA7213DA79D0043B75B /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCACDA5213DA79D0043B75B /* Stack.cpp */; };
@@ -35,6 +37,10 @@
 		4B7E47562157B7010001EDD2 /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = String.cpp; path = "C++Practice/String.cpp"; sourceTree = "<group>"; };
 		4B7E47592157CE790001EDD2 /* STLContainters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STLContainters.cpp; sourceTree = "<group>"; };
 		4B7E475A2157CE790001EDD2 /* STLContainters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = STLContainters.hpp; sourceTree = "<group>"; };
+		4B7E475C21595A170001EDD2 /* ConvertFromBase1ToBase2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertFromBase1ToBase2.cpp; sourceTree = "<group>"; };
+		4B7E475D21595A170001EDD2 /* ConvertFromBase1ToBase2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConvertFromBase1ToBase2.hpp; sourceTree = "<group>"; };
+		4B7E475F215992500001EDD2 /* NumericLimits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumericLimits.cpp; sourceTree = "<group>"; };
+		4B7E4760215992500001EDD2 /* NumericLimits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumericLimits.hpp; sourceTree = "<group>"; };
 		4BCACD94213D55440043B75B /* C++Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCACD9E213D55620043B75B /* C++11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "C++11.h"; path = "C++Practice/C++11.h"; sourceTree = "<group>"; };
 		4BCACD9F213D56880043B75B /* C++11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "C++11.cpp"; sourceTree = "<group>"; };
@@ -61,6 +67,10 @@
 		4BCACD8B213D55440043B75B = {
 			isa = PBXGroup;
 			children = (
+				4B7E475F215992500001EDD2 /* NumericLimits.cpp */,
+				4B7E4760215992500001EDD2 /* NumericLimits.hpp */,
+				4B7E475C21595A170001EDD2 /* ConvertFromBase1ToBase2.cpp */,
+				4B7E475D21595A170001EDD2 /* ConvertFromBase1ToBase2.hpp */,
 				4B7E47592157CE790001EDD2 /* STLContainters.cpp */,
 				4B7E475A2157CE790001EDD2 /* STLContainters.hpp */,
 				4B7E47562157B7010001EDD2 /* String.cpp */,
@@ -143,10 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7E475E21595A170001EDD2 /* ConvertFromBase1ToBase2.cpp in Sources */,
 				4B7E475B2157CE790001EDD2 /* STLContainters.cpp in Sources */,
 				4BCACDA4213DA0F80043B75B /* LinkedList.cpp in Sources */,
 				4B7E4755215739180001EDD2 /* Template.cpp in Sources */,
 				4BCACDA1213D56880043B75B /* C++11.cpp in Sources */,
+				4B7E4761215992500001EDD2 /* NumericLimits.cpp in Sources */,
 				4BCACDA7213DA79D0043B75B /* Stack.cpp in Sources */,
 				4BCACDAA213DAB7C0043B75B /* Queue.cpp in Sources */,
 				4B7E47582157B7010001EDD2 /* String.cpp in Sources */,

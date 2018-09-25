@@ -19,6 +19,7 @@
 #include<unordered_map>
 using namespace std;
 
+#if 0
 int main()
 {
     vector<int> vec;  // size() = 0 because of default constructor
@@ -224,6 +225,7 @@ int main()
     return 0;
 }
 
+#endif
 
 void foo(const unordered_map<char, string> & map)
 {
